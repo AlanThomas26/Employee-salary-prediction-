@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import r2_score, mean_absolute_error
 
 # Load dataset
-df = pd.read_csv("data.csv")
+df = pd.read_csv("employee_salary_dataset (1).csv")
 
 # Features and target
 X = df[['Experience', 'Education', 'JobRole']]
